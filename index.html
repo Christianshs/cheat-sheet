@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Cheat Sheet</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Cristian's Cheat Sheet</h1>
+        <article>
+            <h2>Table Tag</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>The wrapper element for all HTML tables.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;thead&gt;</td>
+                        <td>Table Head</td>
+                        <td>The set of rows defining the column headers in a table.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Table Body</td>
+                        <td>The set of rows containing actual table data.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tr&gt;</td>
+                        <td>Table Row</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;td&gt;</td>
+                        <td>Table Data</td>
+                        <td>The table row container.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;tfoot&gt;</td>
+                        <td>Table Foot</td>
+                        <td>The set of rows defining the footer in a table.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Table Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>colspan</td>
+                        <td>Column Span</td>
+                        <td>Defines how many columns a td element should span.</td>
+                    </tr>
+                    <tr>
+                        <td>rowspan</td>
+                        <td>Row Span</td>
+                        <td>Defines how many rows a td element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Media Elements</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Image</td>
+                        <td>Self closing tag with attributes <strong>src</strong> and <strong>alt</strong> to describe image when it is not loaded</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Video</td>
+                        <td>Video element with attributes <strong>src, type, width, height, controls</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figure&gt;</td>
+                        <td>Figure</td>
+                        <td>Represent self-contained content as images or videos with their respective tags</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;figcaption&gt;</td>
+                        <td>Figure Caption</td>
+                        <td>Caption that can be added underneath the media added</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>CSS Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#id</td>
+                        <td>Select the element by id, this is the most specific and unique</td>
+                    </tr>
+                    <tr>
+                        <td>.class</td>
+                        <td>Select all elements with that class and can be uses multiple times</td>
+                    </tr>
+                    <tr>
+                        <td>element.class</td>
+                        <td>Select element with that class ex: h1.red</td>
+                    </tr>
+                    <tr>
+                        <td>element</td>
+                        <td>Select an element by their tag as, h1, body... </td>
+                    </tr>
+                    <tr>
+                        <td>element,element</td>
+                        <td>Select the elements you applied ex: h1, p</td>
+                    </tr>
+                    <tr>
+                        <td>*</td>
+                        <td>Select all elements</td>
+                    </tr>
+                    <tr>
+                        <td>:</td>
+                        <td>Pseudo class (:hover, :dir...) let you apply style to an element</td>
+                    </tr>
+                </thead>
+            </table>
+            <h2>Common CSS Properties</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Propertie</th>
+                        <th>Description</th>
+                        <th>Values</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>font-family:</td>
+                        <td>Sets the font family for an element;</td>
+                        <td>Type the name of the font/s in single/double quotes;</td>
+                    </tr>
+                    <tr>
+                        <td>font-size:</td>
+                        <td>Sets the size of the font for an element;</td>
+                        <td>px, %, em, small, larger, x-large</td>
+                    </tr>
+                    <tr>
+                        <td>font-weight:</td>
+                        <td>Sets the weight or thickness of the font;</td>
+                        <td>inherits(inherits the value from its parent element), lighter, normal, bold, bolder or by numbers between 100(thinest) and 900(boldest)</td>
+                    </tr>
+                    <tr>
+                        <td>text-align:</td>
+                        <td>Sets the alignment of text inside an element;</td>
+                        <td>left, center, right, justify</td>
+                    </tr>
+                    <tr>
+                        <td>color:</td>
+                        <td>Specifies the color of text in an element;</td>
+                        <td>could be specifies with text or hex #000000, rgb(0,255,0), hsl(360,100%,100%), rgba(0,255,0,0.3), hsla(360,100%,100%,0.5)</td>
+                    </tr>
+                    <tr>
+                        <td>background-color:</td>
+                        <td>Specifies background color of the element;</td>
+                        <td>Same as color</td>
+                    </tr>
+                    <tr>
+                        <td>opacity:</td>
+                        <td>Defines the transparency of an element;</td>
+                        <td>Values range from 0 (transparent) to 1 (opaque)</td>
+                    </tr>
+                    <tr>
+                        <td>background-image:</td>
+                        <td>Set the element's background image;</td>
+                        <td>url(''), height, </td>
+                    </tr>
+                    <tr>
+                        <td>!important</td>
+                        <td>Add more importance to a property/value, override</td>
+                        <td>This is a value</td>
+                    </tr>
+                    <tr>
+                        <td>list-style:</td>
+                        <td>Specifies the markers for the item;</td>
+                        <td>dise, circle, square, kannada...</td>
+                    </tr>
+                    <tr>
+                        <td>border:</td>
+                        <td>Apply borders to a box;</td>
+                        <td>ex: 3px solid coral (width, style and color)</td>
+                    </tr>
+                    <tr>
+                        <td>border-radius:</td>
+                        <td>Modify borders of a box;</td>
+                        <td>px, %</td>
+                    </tr>
+                    <tr>
+                        <td>padding:</td>
+                        <td>Space in between the content and the border, could be specifies as top, right, bottom, left</td>
+                        <td>single value or multiple values (6px 3px 4px 79px)</td>
+                    </tr>
+                    <tr>
+                        <td>margin:</td>
+                        <td>Space outside of the box, could be specifies as top, right, bottom, left</td>
+                        <td>Same as padding or (0 auto)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </header>
+    <footer>
+        <div>
+            <img src="thumb.jpg" alt="thumbs up">
+        </div>
+        <p>Work smarter not harder!</p>
+    </footer>
+</body>
+</html>
